@@ -1,0 +1,108 @@
+body { 
+    background-color: lightseagreen;
+    width: 100%;
+    border: 0%;
+    Padding: 0%;
+    Margin: 0%
+  }
+
+ .flex-container {
+    display: flex;
+    flex-direction: column;
+    column-width: 100%;
+    height: 1056px;
+  }
+
+  h1 {
+   font-family: arial serif, cursive;
+   font-size: xx-large;
+   margin: 0%;
+   border: 0%;
+   padding-top: 30px;
+  }
+
+  h2 {
+   font-family: arial sans-serif, normal;
+   font-size: x-large;
+   padding-top: 30px;
+  }
+
+  h3 {
+   font-family: arial san-serif, normal;
+   font-size: x-large;
+ }
+
+ img{ 
+  width: 25%;
+ }
+
+  hr {
+   padding: 0%;
+   margin: 0%;
+   border: 0%;
+  }
+
+.box1 {
+  text-align: center;
+  background-color:  #9AC5F4;
+  width: 100%;
+  height: 100%;
+  color: darkblue;
+ }
+
+ .Orchid {
+  border: 2px solid darkblue;
+  border-radius: 100%;
+  padding: 5px;
+ }
+
+.box2 {
+  justify-content: center;
+  background-color: #99DBF5;
+  height: 100%;
+  text-align: center;
+  color: darkblue;
+  }
+  
+.box2 > ul > li {
+  list-style-position: inside;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.Bill {
+  border: 2px solid darkblue;
+  border-radius: 100%;
+  padding: 5px;
+ }
+
+ .box3 {
+  Justify-content: left;
+  background-color: #A7ECEE ;
+  font-family: Arial sans-serif, normal;
+  text-align: center;
+  color: darkblue;
+  height: 100%;
+ }
+
+ .box3 > ul > li {
+  list-style-position: inside;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.Creek {
+  border: 2px solid darkgreen;
+  border-radius: 100%;
+  padding: 5px;
+}
+
+.footer {
+   left: 0px;
+   bottom: 0%;
+   width: 100%;
+   background-color: lightseagreen;
+   color: white;
+   text-align: center;
+   Padding: 5px
+}
